@@ -129,13 +129,13 @@ button:hover{
     }
     section-2{
         position: absolute;
-        right: 0%;
+        /* right: 0%; */
         width: 100%;
         min-width: 100vh;
         padding: 400px;
-        display:inline-flex;
+        display:flex;
         justify-content:center; 
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     cursor: pointer;
     
     background-image: url(space.jpg);
@@ -147,7 +147,7 @@ button:hover{
         font-size: 3em;
         margin-top: -378px;
         color: #fff;
-        margin-right: 800px;
+        margin-right: 500px;
         justify-content: center;
     }
  section-2 p{
@@ -157,7 +157,7 @@ button:hover{
     line-height: 16px;
     margin-top: -20px;
     margin-left: -900px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position:absolute;
     background-color: rgb(110, 109, 109);
     opacity: 0.8;
@@ -166,22 +166,42 @@ button:hover{
  }
  section-2 a{
     margin-top: -370px;
+    margin-right: 69px;
     
  }
  
   .box{
-            background-image: url(just.jpg);
+            background-image: url(just.jpg) ;
             border-radius: 10px;
             padding: 15px 25px;
-            box-sizing: border-box;
+            /* box-sizing: 300px; */
             cursor: pointer;
-            width: 200px;
+            width: 700px;
             height: 230px;
-            display:flex;
+            display: flex;
              flex-basis: 100px;
-            align-items:flex-start;
-            background-size: cover;
-            justify-content: flex-end;
-            margin-top: -400px;
+            /* align-items:flex-start;
+            background-size: cover;  */
+            /* /* justify-content:center;
+             /* margin-top: -400px;  */
+             margin-top: -400px;
 }
-  
+.box-2{
+    margin-left: -450px;
+    margin-top: -350px;
+}
+  .hi{
+   background-color: rgb(187, 135, 71);
+   margin-top: 500px;
+   justify-content: center;
+   width: 500px;
+   margin-left: -320px;
+   justify-content: space-around;
+   font-size: 19px;
+    word-spacing: 20px;
+    line-height: 16px;
+    position: absolute;
+    border: none;
+    box-sizing: 70px;
+    border-color: antiquewhite;
+  }
